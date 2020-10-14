@@ -25,7 +25,7 @@ This bot is implements using MiniMax algorithm (https://en.wikipedia.org/wiki/Mi
 ### Hard
 **Players/AlphaBetaBot**
 
-This bot is implements using MiniMax algorithm (https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
+This bot is implements using AlphaBeta algorithm (https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
 
 ## ScreenShots
 ![BoxyDotsGame](Screenshots/dotsandboxes.png?raw=true "Dots and boxes")
