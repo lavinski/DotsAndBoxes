@@ -37,7 +37,7 @@ class GameBoardPage(tk.Frame):
         self.infoframe = tk.Frame(self)
 
     def keyPress(self, e):
-        print("reset")
+        # print("reset")
         if e.char == 'r':
             self.reset()
         elif e.char == 'b':
@@ -116,7 +116,7 @@ class GameBoardPage(tk.Frame):
         oriantation = self.isclose(x, y)
         if oriantation:
             if self.line_exists(x, y, oriantation):
-                print("line exist")
+                # print("line exist")
                 # move = self.controller.opponent.makeTheMove(self.moves)
                 # self.bot_click(move)
                 return
@@ -127,7 +127,7 @@ class GameBoardPage(tk.Frame):
         oriantation = self.isclose(x, y)
         if oriantation:
             if self.line_exists(x, y, oriantation):
-                print("line does not exist")
+                #print("line does not exist")
                 return
 
             # print(x)

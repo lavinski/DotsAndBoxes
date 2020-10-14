@@ -36,7 +36,6 @@ class Game(tk.Tk):
 
         self.show_frame(StartPage.StartPage)
 
-    # parameter
     def show_frame(self, cont):
         frame = self.frames[cont]
         frame.tkraise()

@@ -81,7 +81,6 @@ class MiniMaxBot(BotInterface):
         for free in freeLines:
             if free["point_from_x"] == 0 and free["point_from_y"] == 0 and free["point_to_x"] == 1 and free[
                 "point_to_y"] == 0:
-                print("error")
                 break;
 
         # how much moves you can take before the end
@@ -112,7 +111,7 @@ class MiniMaxBot(BotInterface):
         # lets remove who key from move and return it
 
         if score == 0:
-            print("generate random")
+            # print("generate random")
             # this means that all moves are equal value
             # so we need to make random move
             freeMoves = self.getFreeLines(movesMadeNew)
